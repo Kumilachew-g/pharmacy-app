@@ -1,11 +1,17 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./routes/Login";
 
-function App() {
+const App = () => {
   return (
-    <div className='App'>
-      <h1>Pharmacy App</h1>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
