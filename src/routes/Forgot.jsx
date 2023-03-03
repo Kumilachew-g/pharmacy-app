@@ -31,7 +31,7 @@ const Forgot = () => {
                   placeholder='johndoe@gmail.com'
                 />
               </div>
-              <div class='grid grid-flow-col gap-x-10 auto-cols-max mt-4 justify-between'>
+              <div className='grid grid-flow-col gap-x-10 auto-cols-max mt-4 justify-between'>
                 <div className='flex justify-center items-center'>
                   <button
                     className={`bg-primary py-3 px-10 text-sm text-white rounded border focus:outline-none`}
@@ -53,7 +53,7 @@ const Forgot = () => {
       </div>
       <div className='lg:w-1/2 xl:max-w-screen-sm bg-purple-200 ml-10'>
         <div className='grid grid-rows-2'>
-          <div class='items-center py-5 px-10'>
+          <div className='items-center py-5 px-10'>
             <img
               src={logo}
               alt=''
