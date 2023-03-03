@@ -52,7 +52,7 @@ const Forgot = () => {
         </div>
       </div>
       <div className='lg:w-1/2 xl:max-w-screen-sm bg-purple-200 ml-10'>
-        <div class='grid grid-rows-2'>
+        <div className='grid grid-rows-2'>
           <div class='items-center py-5 px-10'>
             <img
               src={logo}
@@ -60,7 +60,7 @@ const Forgot = () => {
               className='ml-auto object-scale-down h-7'
             ></img>
           </div>
-          <div class='h-20 p-7 mt-3'>
+          <div className='h-20 p-7 mt-3'>
             <img
               src={illustration}
               alt=''
