@@ -3,7 +3,7 @@ import '../index.css';
 import logo from '../assets/logo.svg';
 import illustration from '../assets/forgot.svg';
 
-const Login = () => {
+const Forgot = () => {
   return (
     <div className='lg:flex'>
       <div className='lg:w-1/2 xl:max-w-screen-sm'>
@@ -73,4 +73,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Forgot;
