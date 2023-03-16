@@ -6,13 +6,13 @@ import illustration from "../assets/signup.svg";
 const Signup = () => {
   return (
     <div className="lg:flex">
-      <div className="lg:w-1/2 xl:max-w-screen-sm bg-purple-200 mr-10">
+      <div className="lg:w-1/2 xl:max-w-screen-sm bg-purple-200 mr-auto">
         <div class="grid grid-rows-2">
           <div class="items-center py-5 px-10">
             <img
               src={google}
               alt=""
-              className="mr-auto object-scale-down h-7"
+              className="mr-auto object-scale-down h-12"
             ></img>
           </div>
           <div class="h-20 p-5">
@@ -27,7 +27,7 @@ const Signup = () => {
       <div className="lg:w-1/2 xl:max-w-screen-sm">
         <div className="h-screen flex">
           <div className="w-full max-w-md m-auto bg-white py-5 px-10">
-            <h1 className="text-4xl font-medium mt-4 antialiased mb-6 text-center">
+            <h1 className="text-4xl font-medium mt-1 antialiased mb-6 text-center">
               Welcome
             </h1>
             <form>
@@ -37,7 +37,7 @@ const Signup = () => {
                 </label>
                 <input
                   type="email"
-                  className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
+                  className={`w-full p-2 text-primary border rounded-lg-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                   id="email"
                   placeholder="johndoe@gmail.com"
                 />
@@ -48,7 +48,7 @@ const Signup = () => {
                 </label>
                 <input
                   type="password"
-                  className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4 `}
+                  className={`w-full p-2 text-primary border rounded-lg-md outline-none text-sm transition duration-150 ease-in-out mb-4 `}
                   id="password"
                   placeholder="Your Password"
                 />
@@ -59,7 +59,7 @@ const Signup = () => {
                 </label>
                 <input
                   type="companyname"
-                  className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
+                  className={`w-full p-2 text-primary border rounded-lg-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                   id="companyname"
                   placeholder="Huma Medical Store"
                 />
@@ -73,7 +73,7 @@ const Signup = () => {
                 </label>
                 <input
                   type="businesslocation"
-                  className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
+                  className={`w-full p-2 text-primary border rounded-lg-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                   id="businesslocation"
                   placeholder="Delhi,NCR"
                 />
@@ -97,7 +97,7 @@ const Signup = () => {
 
               <div className="flex justify-center items-center mt-6">
                 <button
-                  className={`w-full bg-primary py-2 px-4 text-sm text-white rounded border focus:outline-none focus:`}
+                  className={`w-full bg-primary py-2 px-4 text-sm text-white rounded-lg border focus:outline-none focus:`}
                 >
                   Register
                 </button>
@@ -105,10 +105,15 @@ const Signup = () => {
             </form>
             <div className="flex flex-wrap mt-3">
               <button
-                className={`w-full rounded border py-2 px-4 focus:outline-none`}
+                className={`w-full rounded-lg border py-2 px-4 focus:outline-none`}
               >
-                <div className="self-center text-sm text-subtle">
-                  Continue with Google
+                <div class="flex flex-row justify-center">
+                  <div class="h-5 px-2">
+                    <img src={google} alt="" className="object-fit"></img>
+                  </div>
+                  <div className="self-center text-sm text-subtle">
+                    Continue with Google
+                  </div>
                 </div>
               </button>
             </div>
