@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import logo from "../assets/logo.svg";
+import google from "../assets/google.svg";
 import illustration from "../assets/login.svg";
 
 const Login = () => {
@@ -52,8 +52,13 @@ const Login = () => {
               <button
                 className={`w-full rounded border py-2 px-4 focus:outline-none`}
               >
-                <div className="self-center text-sm text-subtle">
-                  Continue with Google
+                <div class="flex flex-row align-center">
+                  <div class="h-5 px-2 ml-auto mr-auto">
+                    <img src={google} alt="" className="object-fit"></img>
+                  </div>
+                  <div className="self-center text-sm text-subtle ml-auto mr-auto">
+                    Continue with Google
+                  </div>
                 </div>
               </button>
             </div>
@@ -66,13 +71,13 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2 xl:max-w-screen-sm bg-purple-200 ml-10">
+      <div className="lg:w-1/2 xl:max-w-screen-sm bg-purple-200 ml-auto">
         <div className="grid grid-rows-2">
           <div className="items-center py-5 px-10">
             <img
-              src={logo}
+              src={google}
               alt=""
-              className="ml-auto object-scale-down h-7"
+              className="ml-auto object-scale-down h-12"
             ></img>
           </div>
           <div className="h-20 p-5">
