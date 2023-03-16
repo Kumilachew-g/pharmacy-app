@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import logo from "../assets/logo.svg";
+import google from "../assets/google.svg";
 import illustration from "../assets/signup.svg";
 
 const Signup = () => {
@@ -10,7 +10,7 @@ const Signup = () => {
         <div class="grid grid-rows-2">
           <div class="items-center py-5 px-10">
             <img
-              src={logo}
+              src={google}
               alt=""
               className="mr-auto object-scale-down h-7"
             ></img>
