@@ -52,8 +52,8 @@ const Login = () => {
               <button
                 className={`w-full rounded-lg border py-2 px-4 focus:outline-none `}
               >
-                <div class="flex flex-row justify-center">
-                  <div class="h-5 px-2">
+                <div className="flex flex-row justify-center">
+                  <div className="h-5 px-2">
                     <img src={google} alt="" className="object-fit"></img>
                   </div>
                   <div className="self-center text-sm text-subtle ml-auto mr-auto">
