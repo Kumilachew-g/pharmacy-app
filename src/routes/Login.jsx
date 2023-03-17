@@ -50,10 +50,10 @@ const Login = () => {
             </form>
             <div className="flex flex-wrap mt-3">
               <button
-                className={`w-full rounded border py-2 px-4 focus:outline-none`}
+                className={`w-full rounded-lg border py-2 px-4 focus:outline-none `}
               >
-                <div class="flex flex-row align-center">
-                  <div class="h-5 px-2 ml-auto mr-auto">
+                <div className="flex flex-row justify-center">
+                  <div className="h-5 px-2">
                     <img src={google} alt="" className="object-fit"></img>
                   </div>
                   <div className="self-center text-sm text-subtle ml-auto mr-auto">
