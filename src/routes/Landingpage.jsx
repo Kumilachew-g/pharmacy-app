@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import "../index.css";
 import logo from "../assets/fulllogo.png";
 import illustration from "../assets/homepage.png";
@@ -12,7 +12,7 @@ const Home = () => {
   const token = useSelector((state) => state.auth.user.token);
   return (
     <div>
-      {token ? <Redirect to="/dash/" /> : null}
+      {token ? <Navigate to="/dash/" /> : null}
       <div className="h-screen max-w-screen">
         <div class="flex flex-row mt-3">
           <div class="py-5 px-10">
