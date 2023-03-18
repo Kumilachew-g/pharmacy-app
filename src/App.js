@@ -4,6 +4,7 @@ import Login from "./routes/Login";
 import ForgotPassword from "./routes/Forgot";
 import Signup from "./routes/signup";
 import Dashboard from "./routes/Dashboard";
+import Homepage from "./routes/LandingPage";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="forgot" element={<ForgotPassword />} />
           <Route path="signup" element={<Signup />} />
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="home" element={<Homepage />} />
         </Routes>
       </Router>
     </div>
