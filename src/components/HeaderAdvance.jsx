@@ -1,6 +1,6 @@
 import "../index.css";
 import React from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/fulllogo.png";
 import bellicon from "../assets/bell.svg";
 import back from "../assets/back.svg";
 
