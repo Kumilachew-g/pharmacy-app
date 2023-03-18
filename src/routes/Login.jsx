@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
 import logo from "../assets/fulllogo.png";
+import google from "../assets/google.svg";
 import illustration from "../assets/login.svg";
 
 const Login = () => {
@@ -54,7 +55,7 @@ const Login = () => {
               >
                 <div className="flex flex-row justify-center">
                   <div className="h-5 px-2">
-                    <img src={logo} alt="" className="object-fit"></img>
+                    <img src={google} alt="" className="object-fit"></img>
                   </div>
                   <div className="self-center text-sm text-subtle ml-auto mr-auto">
                     Continue with Google
