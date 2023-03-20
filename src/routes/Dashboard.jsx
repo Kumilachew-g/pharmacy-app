@@ -1,13 +1,14 @@
 import React from "react";
 import "../index.css";
 import Header from "../components/Header";
+import SideBar from "../components/SideBar";
 
 const Dashboard = () => {
   return (
     <div>
-      <Header></Header>
+      <Header />
       {/* sidebar */}
-      <div></div>
+      <SideBar />
       {/* main content container */}
       <div></div>
     </div>
