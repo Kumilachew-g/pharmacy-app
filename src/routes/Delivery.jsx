@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
-import Header from "../components/header";
-import SideBar from "../components/sideBar";
+import Header from "../components/Header";
+import SideBar from "../components/SideBar";
 
 const Delivery = () => {
   return (
