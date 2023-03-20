@@ -6,6 +6,10 @@ import Signup from "./routes/Signup";
 import Dashboard from "./routes/Dashboard";
 import Homepage from "./routes/LandingPage";
 import Profile from "./routes/Profile";
+import Billing from "./routes/Billing";
+import Delivery from "./routes/Delivery";
+import Product from "./routes/Products";
+import Vendor from "./routes/Vendors";
 
 const App = () => {
   return (
@@ -18,6 +22,10 @@ const App = () => {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="home" element={<Homepage />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="billing" element={<Billing />} />
+          <Route path="delivery" element={<Delivery />} />
+          <Route path="product" element={<Product />} />
+          <Route path="vendor" element={<Vendor />} />
         </Routes>
       </Router>
     </div>

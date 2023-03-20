@@ -3,7 +3,7 @@ import "../index.css";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 
-const Dashboard = () => {
+const Billing = () => {
   return (
     <div>
       <Header />
@@ -15,4 +15,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Billing;
