@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import Header from "../components/Header";
-import SideBar from "../components/sideBar";
+import SideBar from "../components/SideBar";
 
 const Vendor = () => {
   return (
