@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../index.css";
 import logo from "../assets/fulllogo.png";
 import illustration from "../assets/forgot.svg";
@@ -40,11 +41,13 @@ const Forgot = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <button
-                    className={`py-3 px-14 text-sm text-primary rounded-lg border focus:outline-none`}
-                  >
-                    Cancel
-                  </button>
+                  <Link to="/login" class="w-full">
+                    <button
+                      className={`py-3 px-14 text-sm text-primary rounded-lg border focus:outline-none`}
+                    >
+                      Cancel
+                    </button>
+                  </Link>
                 </div>
               </div>
             </form>
