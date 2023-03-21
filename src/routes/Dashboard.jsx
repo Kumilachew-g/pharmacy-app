@@ -13,7 +13,7 @@ const Dashboard = () => {
       <Header />
       <div className="flex">
         {/* sidebar */}
-        <SideBar />
+        <SideBar place="1" />
         {/* main content container */}
         <div className="p-6 bg-gray-50 mt-12 ml-72">
           {/* top banner */}

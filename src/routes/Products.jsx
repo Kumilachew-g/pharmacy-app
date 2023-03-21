@@ -8,7 +8,7 @@ const Products = () => {
     <div>
       <Header />
       {/* sidebar */}
-      <SideBar />
+      <SideBar place="2" />
       {/* main content container */}
       <div></div>
     </div>
