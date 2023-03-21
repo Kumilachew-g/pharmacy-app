@@ -18,16 +18,15 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="forgot" element={<ForgotPassword />} />
-          <Route path="signup" element={<Signup />} />
-          <Route path="dashboard" element={<Dashboard />} />
-          <Route path="home" element={<Homepage />} />
-          <Route path="profile" element={<Profile />} />
-          <Route path="billing" element={<Billing />} />
-          <Route path="delivery" element={<Delivery />} />
-          <Route path="product" element={<Product />} />
-          <Route path="vendor" element={<Vendor />} />
-          <Route path="profile" element={<Profile />} />
+          <Route path="/forgot" element={<ForgotPassword />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/home" element={<Homepage />} />
+          <Route path="/dash" element={<Dashboard />} />
+          <Route path="/products" element={<Product />} />
+          <Route path="/billing" element={<Billing />} />
+          <Route path="/vendors" element={<Vendor />} />
+          <Route path="/delivery" element={<Delivery />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/notifications" element={<Notification />} />
           <Route path="/faqs" element={<Faqs />} />
         </Routes>
