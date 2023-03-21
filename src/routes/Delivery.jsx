@@ -8,7 +8,7 @@ const Delivery = () => {
     <div>
       <Header />
       {/* sidebar */}
-      <SideBar />
+      <SideBar place="5" />
       {/* main content container */}
       <div></div>
     </div>

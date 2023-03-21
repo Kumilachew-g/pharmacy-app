@@ -10,7 +10,8 @@ import Billing from "./routes/Billing";
 import Delivery from "./routes/Delivery";
 import Product from "./routes/Products";
 import Vendor from "./routes/Vendors";
-
+import Notification from "./routes/Notifications";
+import Faqs from "./routes/Faqs";
 const App = () => {
   return (
     <div>
@@ -26,6 +27,9 @@ const App = () => {
           <Route path="delivery" element={<Delivery />} />
           <Route path="product" element={<Product />} />
           <Route path="vendor" element={<Vendor />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="/notifications" element={<Notification />} />
+          <Route path="/faqs" element={<Faqs />} />
         </Routes>
       </Router>
     </div>

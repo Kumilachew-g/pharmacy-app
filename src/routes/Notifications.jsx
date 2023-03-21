@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 const Notifications = () => {
   return (
