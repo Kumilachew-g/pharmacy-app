@@ -8,7 +8,7 @@ import BackButton from "./BackButton";
 
 const Header = () => {
   return (
-    <div class="fixed flex px-3 w-full border">
+    <div class="fixed flex px-3 w-full border bg-white">
       <div className="flex flex-wrap">
         <BackButton />
       </div>
@@ -16,7 +16,7 @@ const Header = () => {
         <img src={logo} alt="" className="mr-auto object-scale-down h-12" />
       </Link>
       <div class="flex ml-auto items-center">
-        <h2 class="text-xl font-medium antialiased">Huma Medical Center</h2>
+        <h2 class="text-xl font-medium antialiased">Selam Medical Center</h2>
         {/* bell icon */}
         <Link to="/notifications">
           <img src={bellicon} alt="" class="h-6 px-4" />
