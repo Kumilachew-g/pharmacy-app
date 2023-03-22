@@ -22,7 +22,7 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 1 ? "bg-purple-100" : "")
+              (this.props.place === 1 ? "bg-purple-100" : "")
             }
           >
             <div className="flex space-x-8 items-center justify-start">
@@ -30,7 +30,9 @@ const SideBar = () => {
               <p
                 className={
                   "text-sm font-medium " +
-                  (this.props.place == 1 ? "text-indigo-600 " : "text-gray-400")
+                  (this.props.place === 1
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Dashboard
@@ -43,7 +45,7 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 2 ? "bg-purple-100" : "")
+              (this.props.place === 2 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
@@ -51,7 +53,9 @@ const SideBar = () => {
               <p
                 className={
                   "text-sm font-medium " +
-                  (this.props.place == 2 ? "text-indigo-600 " : "text-gray-400")
+                  (this.props.place === 2
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Products
@@ -64,7 +68,7 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 3 ? "bg-purple-100" : "")
+              (this.props.place === 3 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
@@ -72,7 +76,9 @@ const SideBar = () => {
               <p
                 className={
                   "text-sm font-medium " +
-                  (this.props.place == 3 ? "text-indigo-600 " : "text-gray-400")
+                  (this.props.place === 3
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Billing
@@ -85,7 +91,7 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 4 ? "bg-purple-100" : "")
+              (this.props.place === 4 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
@@ -93,7 +99,9 @@ const SideBar = () => {
               <p
                 className={
                   "text-sm font-medium " +
-                  (this.props.place == 4 ? "text-indigo-600 " : "text-gray-400")
+                  (this.props.place === 4
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Vendors
@@ -106,7 +114,7 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 5 ? "bg-purple-100" : "")
+              (this.props.place === 5 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
@@ -114,7 +122,9 @@ const SideBar = () => {
               <p
                 className={
                   "text-sm font-medium " +
-                  (this.props.place == 5 ? "text-indigo-600 " : "text-gray-400")
+                  (this.props.place === 5
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Delivery
