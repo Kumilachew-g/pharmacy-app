@@ -8,7 +8,7 @@ import BackButton from "./BackButton";
 
 const Header = () => {
   return (
-    <div class="fixed flex px-3 w-full border bg-white">
+    <div class="h-1/10 fixed flex px-3 w-full border bg-white">
       <div className="flex flex-wrap">
         <BackButton />
       </div>

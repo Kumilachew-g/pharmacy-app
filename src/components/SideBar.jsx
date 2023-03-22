@@ -13,7 +13,7 @@ import QuickAdd from "./QuickAdd";
 
 const SideBar = () => {
   return (
-    <div className="w-72 shadow mt-12 fixed">
+    <div className="w-1/5 shadow mt-12 fixed">
       <div className="inline-flex flex-col space-y-2 items-start justify-start flex-1 h-full px-6 pt-6 pb-12">
         <QuickAdd></QuickAdd>
         {/* navlinks */}
@@ -22,15 +22,17 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 1 ? "bg-purple-100" : "")
+              (this.props.place === 1 ? "bg-purple-100" : "")
             }
           >
             <div className="flex space-x-8 items-center justify-start">
-              <DashboardIcon />
+              <DashboardIcon className="h-5 " />
               <p
                 className={
-                  "text-lg font-medium " +
-                  (this.props.place == 1 ? "text-indigo-600 " : "text-gray-400")
+                  "text-sm font-medium " +
+                  (this.props.place === 1
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Dashboard
@@ -43,15 +45,17 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 2 ? "bg-purple-100" : "")
+              (this.props.place === 2 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
-              <BoxIcon />
+              <BoxIcon className="h-5 " />
               <p
                 className={
-                  "text-lg font-medium " +
-                  (this.props.place == 2 ? "text-indigo-600 " : "text-gray-400")
+                  "text-sm font-medium " +
+                  (this.props.place === 2
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Products
@@ -64,15 +68,17 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 3 ? "bg-purple-100" : "")
+              (this.props.place === 3 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
-              <FileTextIcon />
+              <FileTextIcon className="h-5 " />
               <p
                 className={
-                  "text-lg font-medium " +
-                  (this.props.place == 3 ? "text-indigo-600 " : "text-gray-400")
+                  "text-sm font-medium " +
+                  (this.props.place === 3
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Billing
@@ -85,15 +91,17 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 4 ? "bg-purple-100" : "")
+              (this.props.place === 4 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
-              <UsersIcon />
+              <UsersIcon className="h-5 " />
               <p
                 className={
-                  "text-lg font-medium " +
-                  (this.props.place == 4 ? "text-indigo-600 " : "text-gray-400")
+                  "text-sm font-medium " +
+                  (this.props.place === 4
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Vendors
@@ -106,15 +114,17 @@ const SideBar = () => {
           <div
             className={
               "inline-flex items-center justify-start w-full h-12 pl-2 pr-16 pt-2 pb-2.5 rounded-lg " +
-              (this.props.place == 5 ? "bg-purple-100" : "")
+              (this.props.place === 5 ? "bg-purple-100" : "")
             }
           >
             <div className="inline-flex space-x-8 items-center justify-start">
-              <TruckIcon />
+              <TruckIcon className="h-5 " />
               <p
                 className={
-                  "text-lg font-medium " +
-                  (this.props.place == 5 ? "text-indigo-600 " : "text-gray-400")
+                  "text-sm font-medium " +
+                  (this.props.place === 5
+                    ? "text-indigo-600 "
+                    : "text-gray-400")
                 }
               >
                 Delivery
@@ -124,12 +134,12 @@ const SideBar = () => {
         </Link>
         {/* faqs */}
         <div className="flex flex-col w-full space-y-2.5 items-center justify-center p-6 bg-purple-100 rounded-2xl">
-          <p className="w-40 text-2xl font-bold text-center text-gray-900">
+          <p className="w-40 text-lg font-bold text-center text-gray-900">
             Have some questions?
           </p>
           <Link to="/faqs" className="w-full">
             <button className="flex flex-col items-center justify-center w-full py-4 bg-primary rounded-lg">
-              <p className="text-base font-medium text-center text-white">
+              <p className="text-sm text-medium text-center text-white">
                 look at the faqs
               </p>
             </button>
