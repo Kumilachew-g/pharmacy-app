@@ -1,18 +1,20 @@
-import React from "react";
-import "../index.css";
-import Header from "../components/Header";
-import SideBar from "../components/SideBar";
+import '../index.css';
+import Header from '../components/Header';
+import Sidebar from '../components/SideBar';
 
-const Products = () => {
+const Product = () => {
+  // const [search_product, setSearchProduct] = useState("");
+  console.log('Product Reached');
   return (
     <div>
       <Header />
       {/* sidebar */}
-      <SideBar place="2" />
-      {/* main content container */}
-      <div></div>
+      <div className='flex w-full overflow-x-hidden'>
+        <Sidebar place='2' />
+        {/* main content container */}
+      </div>
     </div>
   );
 };
 
-export default Products;
+export default Product;
