@@ -9,7 +9,7 @@ const AddBill = () => {
       <Header />
       {/* sidebar */}
       <div className="h-9/10 ">
-        <Sidebar place="3" />
+        <SideBar place="3" />
         {/* main content container */}
         <div className=" mt-auto w-3/4 p-10  ml-auto mr-8">
           <div className="container bg-white border rounded border-subtle mt-12 px-10">
@@ -35,7 +35,7 @@ const AddBill = () => {
                   </div>
                   <div>
                     <h1 className="text-2xl text-primary font-medium mt-4 antialiased mb-3 text-left">
-                      8 Apr 2021
+                      8 Apr 2023
                     </h1>
                   </div>
                 </div>
@@ -182,3 +182,5 @@ const AddBill = () => {
     </div>
   );
 };
+
+export default AddBill;
