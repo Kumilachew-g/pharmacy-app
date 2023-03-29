@@ -41,25 +41,25 @@ const Product = () => {
                           scope="col"
                           className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                         >
-                          Name
-                        </th>
-                        <th
-                          scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                        >
                           Medicine
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                         >
-                          Status
+                          InStock
                         </th>
                         <th
                           scope="col"
                           className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                         >
-                          phone
+                          Cost price
+                        </th>
+                        <th
+                          scope="col"
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                        >
+                          Selling price
                         </th>
                         <th scope="col" className="relative px-6 py-3">
                           <span className="sr-only">Edit</span>
@@ -68,7 +68,7 @@ const Product = () => {
                     </thead>
                     <tbody className="bg-white divide-y divide-gray-200">
                       {product.map((person) => (
-                        <tr key={person.email}>
+                        <tr key={person.power}>
                           <td className="px-6 py-4 whitespace-nowrap">
                             <div className="flex items-center">
                               <div className="flex-shrink-0 h-10 w-10">
@@ -80,26 +80,26 @@ const Product = () => {
                               </div>
                               <div className="ml-4">
                                 <div className="text-sm font-medium text-gray-900">
-                                  {person.name}
+                                  {person.medicine}
                                 </div>
                                 <div className="text-sm text-gray-500">
-                                  {person.email}
+                                  {person.power}
                                 </div>
                               </div>
                             </div>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
                             <div className="text-sm text-gray-900">
-                              {person.medicine}
+                              {person.InStock}
                             </div>
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap">
-                            <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                              Active
-                            </span>
+                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            <a href={person.costprice}>{person.costprice}</a>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            <a href={person.phone}>{person.phone}</a>
+                            <a href={person.sellingprice}>
+                              {person.sellingprice}
+                            </a>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                             <a
