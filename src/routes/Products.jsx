@@ -4,12 +4,12 @@ import Header from "../components/Header";
 import SideBar from "../components/SideBar";
 const product = [
   {
-    name: "Hayat Tamboli",
-    medicine: "Crocin",
+    name: "Helen Mamushet",
+    medicine: "Medicine 1",
     phone: "7887537843",
-    email: "hayat.tamboli@gmail.com",
+    email: "kumie@gmail.com",
     image:
-      "https://pbs.twimg.com/profile_images/1378272639379144705/bOkqlvA6_400x400.jpg",
+      "https://images.unsplash.com/photo-1620390000000-8b8b0b0b0b0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
   },
   {
     name: "Manas gupta",
@@ -17,7 +17,7 @@ const product = [
     phone: "123456789",
     email: "manas1820@gmail.com",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+      "https://images.unsplash.com/photo-1679772692631-08eb486c5a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
   },
   // More Product...
 ];
