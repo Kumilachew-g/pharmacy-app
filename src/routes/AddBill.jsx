@@ -109,7 +109,7 @@ const AddBill = () => {
                 />
               </div>
               <h1 className="text-2xl text-black font-medium antialiased  text-left">
-                ₹ 1670
+                $ 1670
               </h1>
             </div>
             <div className="flex flex-row justify-between">
@@ -141,7 +141,7 @@ const AddBill = () => {
                 />
               </div>
               <h1 className="text-2xl text-black font-medium antialiased  text-left">
-                ₹ 2200
+                $ 2200
               </h1>
             </div>
             <div className="flex flex-row justify-between">
@@ -173,7 +173,7 @@ const AddBill = () => {
                 />
               </div>
               <h1 className="text-2xl text-black font-medium antialiased  text-left">
-                ₹ 1700
+                $ 1700
               </h1>
             </div>
           </div>
