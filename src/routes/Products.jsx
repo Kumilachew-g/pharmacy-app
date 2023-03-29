@@ -9,13 +9,13 @@ const product = [
     phone: "7887537843",
     email: "kumie@gmail.com",
     image:
-      "https://images.unsplash.com/photo-1620390000000-8b8b0b0b0b0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+      "https://plus.unsplash.com/premium_photo-1670884126822-9ac53cfc3e7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
   },
   {
-    name: "Manas gupta",
-    medicine: "Remdesivir",
+    name: "Hana Abebe",
+    medicine: "medicine 2",
     phone: "123456789",
-    email: "manas1820@gmail.com",
+    email: "hana@gmail.com",
     image:
       "https://images.unsplash.com/photo-1679772692631-08eb486c5a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
   },
