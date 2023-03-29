@@ -9,7 +9,7 @@ const product = [
     phone: "7887537843",
     email: "kumie@gmail.com",
     image:
-      "https://plus.unsplash.com/premium_photo-1670884126822-9ac53cfc3e7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1130&q=80",
   },
   {
     name: "Hana Abebe",
@@ -17,7 +17,7 @@ const product = [
     phone: "123456789",
     email: "hana@gmail.com",
     image:
-      "https://images.unsplash.com/photo-1679772692631-08eb486c5a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1130&q=80",
   },
   // More Product...
 ];
