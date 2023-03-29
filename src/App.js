@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./routes/Login";
-import ForgotPassword from "./routes/Forgot";
-import Signup from "./routes/SignUp";
+import Login from "./routes/auth/Login";
+import ForgotPassword from "./routes/auth/Forgot";
+import Signup from "./routes/auth/SignUp";
 import Dashboard from "./routes/Dashboard";
 import Homepage from "./routes/LandingPage";
 import Profile from "./routes/Profile";
