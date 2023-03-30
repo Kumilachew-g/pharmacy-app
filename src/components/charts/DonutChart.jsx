@@ -1,5 +1,6 @@
 import "../../index.css";
 import React from "react";
+import { PieChart } from "react-minimal-pie-chart";
 
 const DonutChart = () => {
   return (
