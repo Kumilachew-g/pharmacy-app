@@ -3,6 +3,7 @@ import React from "react";
 import "../index.css";
 import Header from "../components/Header";
 import SideBar from "../components/SideBar";
+import { Link } from "react-router-dom";
 
 const AddProduct = () => {
   return (
@@ -135,22 +136,22 @@ const AddProduct = () => {
 
                   <div class="flex flex-row justify-between mt-3">
                     <div className="py-5">
-                      {/* <Link to="/login" class="w-full"> */}
-                      <button
-                        className={`w-full border bg-primary text-white py-2 px-10 text-sm  cursor-pointer  rounded-lg`}
-                      >
-                        Add Product
-                      </button>
-                      {/* </Link> */}
+                      <Link to="/products" class="w-full">
+                        <button
+                          className={`w-full border bg-primary text-white py-2 px-10 text-sm  cursor-pointer  rounded-lg`}
+                        >
+                          Add Product
+                        </button>
+                      </Link>
                     </div>
                     <div className="py-5">
-                      {/* <Link to="/signup" class="w-full"> */}
-                      <button
-                        className={`w-full cursor-pointer py-2 px-12 text-sm text-primary rounded-lg border border-primary focus:outline-none focus:`}
-                      >
-                        Cancel
-                      </button>
-                      {/* </Link> */}
+                      <Link to="/products" class="w-full">
+                        <button
+                          className={`w-full cursor-pointer py-2 px-12 text-sm text-primary rounded-lg border border-primary focus:outline-none focus:`}
+                        >
+                          Cancel
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </form>
