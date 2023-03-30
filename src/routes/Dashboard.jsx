@@ -7,7 +7,6 @@ import AlertRed from "../assets/alert-triangle-red.svg";
 import AlertBlue from "../assets/alert-triangle-blue.svg";
 import TruckGreen from "../assets/truck-green.svg";
 import GaugeChart from "react-gauge-chart";
-import { PieChart } from "react-minimal-pie-chart";
 import { Link } from "react-router-dom";
 import DonutChart from "../components/charts/DonutChart";
 
