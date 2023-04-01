@@ -58,9 +58,9 @@ const Home = () => {
                 Empowering pharmacists with the new age technology which solves
                 all thier inventory related issues
               </h1>
-              <div className="flex flex-wrap mt-3 z-40">
+              <div className="flex flex-wrap mt-3 z-10">
                 <Link to="/signup">
-                  <button className="bg-primary text-white cursor-pointer rounded-lg border py-3 px-8 focus:outline-none z-40">
+                  <button className="bg-primary text-white cursor-pointer rounded-lg border py-3 px-8 focus:outline-none z-10">
                     <div class="flex flex-row justify-center ml-2 mr-2">
                       <div className="self-center text-sm">Get Started</div>
                       <div class="h-2 px-1">

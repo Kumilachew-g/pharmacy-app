@@ -2,10 +2,10 @@ import "../../index.css";
 import React from "react";
 import { PieChart } from "react-minimal-pie-chart";
 
-const DonutChart = () => {
+const DonutChart = (props) => {
   return (
     <div className="inline-flex flex-col space-y-6 items-center justify-start flex-1 p-10 bg-white border-2 rounded-2xl border-gray-300">
-      <p className="text-xl font-bold text-gray-900">{this.props.title}</p>
+      <p className="text-xl font-bold text-gray-900">{props.title}</p>
       <div className="w-48 object-scale-down">
         <PieChart
           animate
