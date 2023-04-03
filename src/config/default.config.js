@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const config = {
   showDevScreens: __DEV__,
   useFixtures: false,
