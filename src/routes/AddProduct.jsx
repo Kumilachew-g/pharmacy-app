@@ -157,6 +157,8 @@ const AddProduct = () => {
                       Additional Notes
                     </label>
                     <textarea
+                      value={additionalNotes}
+                      onChange={(e) => setAdditionalNotes(e.target.value)}
                       type="vendor"
                       rows="3"
                       className={`w-full p-2 text-primary form-textarea border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
