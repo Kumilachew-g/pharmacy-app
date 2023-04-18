@@ -144,6 +144,8 @@ const AddProduct = () => {
                       Preffered vendor
                     </label>
                     <input
+                      value={preferredVendor}
+                      onChange={(e) => setPreferredVendor(e.target.value)}
                       type="vendor"
                       className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                       id="vendor"
