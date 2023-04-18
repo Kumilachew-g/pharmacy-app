@@ -130,6 +130,8 @@ const AddProduct = () => {
                         Selling Price (1 item)
                       </label>
                       <input
+                        value={sellingPrice}
+                        onChange={(e) => setSellingPrice(e.target.value)}
                         type="sp"
                         className={`w-3/7 p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                         id="sp"
