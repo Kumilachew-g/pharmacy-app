@@ -117,6 +117,8 @@ const AddProduct = () => {
                         Cost Price (1 item)
                       </label>
                       <input
+                        value={costPrice}
+                        onChange={(e) => setCostPrice(e.target.value)}
                         type="cp"
                         className={`w-3/7 p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                         id="cp"
