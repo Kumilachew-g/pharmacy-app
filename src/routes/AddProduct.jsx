@@ -180,6 +180,7 @@ const AddProduct = () => {
                     <div className="py-5">
                       <Link to="/products" class="w-full">
                         <button
+                          onClick={submit}
                           className={`w-full cursor-pointer py-2 px-12 text-sm text-primary rounded-lg border border-primary focus:outline-none focus:`}
                         >
                           Cancel
