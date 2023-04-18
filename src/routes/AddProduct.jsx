@@ -103,6 +103,8 @@ const AddProduct = () => {
                       Low stock warning
                     </label>
                     <input
+                      value={lowStock}
+                      onChange={(e) => setLowStock(e.target.value)}
                       type="lqty"
                       className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                       id="lqty"
