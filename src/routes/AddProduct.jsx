@@ -90,6 +90,8 @@ const AddProduct = () => {
                       Quantity in stock
                     </label>
                     <input
+                      value={quantity}
+                      onChange={(e) => setQuantity(e.target.value)}
                       type="qty"
                       className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4 `}
                       id="qty"
