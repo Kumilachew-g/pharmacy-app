@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { AuthActions } from "../../redux/actions";
-import Loader from "../loader";
+// import Loader from "../loader";
 import { EyeIcon, EyeOffIcon } from "../../icons/index";
 class UserInfo extends Component {
   constructor(props) {
@@ -150,7 +150,7 @@ class UserInfo extends Component {
               className={`w-full flex cursor-pointer justify-center items-center bg-primary hover:bg-indigo-700 transition-all py-2 px-4 rounded border focus:outline-none`}
             >
               <div className="justify-self-center">
-                <Loader color="#ffffff" />
+                {/* <Loader color="#ffffff" /> */}
               </div>
             </button>
           </div>
