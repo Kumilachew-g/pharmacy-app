@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../index.css";
 import Header from "../../../components/Header";
-import SideBar from "../../components/SideBar";
+import SideBar from "../../../components/SideBar";
 import { Link } from "react-router-dom";
 
 const AddProduct = () => {
