@@ -1,8 +1,8 @@
 import React from "react";
 import "../index.css";
-import Header from "../components/Header";
-import SideBar from "../components/SideBar";
-import DeliveryMainCard from "../components/delivery/MainCard";
+import Header from "../../components/Header";
+import SideBar from "../../components/SideBar";
+import DeliveryMainCard from "../../components/delivery/MainCard";
 
 const Delivery = () => {
   return (
