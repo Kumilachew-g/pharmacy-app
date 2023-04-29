@@ -5,6 +5,14 @@ import logo from "../../assets/fulllogo.png";
 import illustration from "../../assets/forgot.svg";
 
 const Forgot = () => {
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   let email = e.target.elements.email?.value;
+  //   let password = e.target.elements.password?.value;
+
+  //   console.log(email, password);
+  // };
   return (
     <div className="lg:flex">
       <div className="lg:w-1/2 xl:max-w-screen-sm">
@@ -32,21 +40,21 @@ const Forgot = () => {
                   placeholder="johndoe@gmail.com"
                 />
               </div>
-              <div className="grid grid-flow-col gap-x-10 auto-cols-max mt-4 justify-between">
+              <div class="grid grid-flow-col gap-x-10 auto-cols-max mt-4 justify-between">
                 <div className="flex justify-center items-center">
                   <button
-                    className={`bg-primary py-3 px-10 text-sm text-white rounded-lg border focus:outline-none`}
+                    className={`bg-primary cursor-pointer py-3 px-10 text-sm text-white rounded-lg border focus:outline-none`}
                   >
                     Send Email
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                  <Link to="/login" class="w-full">
-                    <button
-                      className={`py-3 px-14 text-sm text-primary rounded-lg border focus:outline-none`}
-                    >
-                      Cancel
-                    </button>
+                <Link to="/login" class="w-full">
+                  <button
+                    className={`py-3 cursor-pointer px-14 text-sm text-primary rounded-lg border focus:outline-none`}
+                  >
+                    Cancel
+                  </button>
                   </Link>
                 </div>
               </div>
@@ -55,15 +63,15 @@ const Forgot = () => {
         </div>
       </div>
       <div className="w-1/2 bg-purple-200 ml-auto">
-        <div className="grid grid-rows-2">
-          <div className="items-center py-5 px-10">
+        <div class="grid grid-rows-2">
+          <div class="items-center py-5 px-10">
             <img
               src={logo}
               alt=""
               className="ml-auto object-scale-down h-12"
             ></img>
           </div>
-          <div className="h-20 p-7 mt-3">
+          <div class="h-20 p-7 mt-3">
             <img
               src={illustration}
               alt=""
