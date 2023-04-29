@@ -79,6 +79,7 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+<!--
 <details>
   <summary>Server</summary>
   <ul>
@@ -92,6 +93,8 @@ After you're finished please remove all the comments and instructions!
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+
+-->
 
 <!-- Features -->
 
