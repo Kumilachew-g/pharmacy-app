@@ -1,18 +1,18 @@
 import React from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import "../index.css";
 import logo from "../assets/fulllogo.png";
 import illustration from "../assets/homepage.png";
 import heart from "../assets/heart.svg";
 import rocket from "../assets/rocket.svg";
 import { useSelector } from "react-redux";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 const Home = () => {
   const token = useSelector((state) => state.auth.user.token);
   return (
     <div>
-      {token ? <Navigate to="/dash/" /> : null}
+      {token ? <Redirect to="/dash/" /> : null}
       <div className="h-screen max-w-screen">
         <div class="flex flex-row mt-3">
           <div class="py-5 px-10">
@@ -58,9 +58,9 @@ const Home = () => {
                 Empowering pharmacists with the new age technology which solves
                 all thier inventory related issues
               </h1>
-              <div className="flex flex-wrap mt-3 z-10">
+              <div className="flex flex-wrap mt-3 z-40">
                 <Link to="/signup">
-                  <button className="bg-primary text-white cursor-pointer rounded-lg border py-3 px-8 focus:outline-none z-10">
+                  <button className="bg-primary text-white cursor-pointer rounded-lg border py-3 px-8 focus:outline-none z-40">
                     <div class="flex flex-row justify-center ml-2 mr-2">
                       <div className="self-center text-sm">Get Started</div>
                       <div class="h-2 px-1">
