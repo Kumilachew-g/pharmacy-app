@@ -33,7 +33,7 @@ class Footer extends Component {
                 </Link>
               </div>
               <h1 className="text-sm font-medium text-center antialiased text-subtle mt-8">
-                Copyright © 2020. medical. All rights reserved.
+                Copyright © 2023. medical. All rights reserved.
               </h1>
             </div>
           </div>
