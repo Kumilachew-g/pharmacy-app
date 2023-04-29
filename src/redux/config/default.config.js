@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const config = {
+const config =  {
   showDevScreens: __DEV__,
   useFixtures: false,
   ezLogin: false,
