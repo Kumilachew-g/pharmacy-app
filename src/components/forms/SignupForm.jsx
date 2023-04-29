@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { AuthActions } from "../../redux/actions";
-import Loader from "../Loader";
+import Loader from "../loader";
 import "../../index.css";
 import { EyeIcon, EyeOffIcon } from "../../icons/index";
 class UserInfo extends Component {
