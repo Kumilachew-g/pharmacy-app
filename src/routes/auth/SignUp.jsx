@@ -34,22 +34,7 @@ const Signup = () => {
               Welcome
             </h1>
             <SignupForm />
-            <div className="flex flex-wrap mt-3">
-              {/* <Link to="/dash" class="w-full">
-                <button
-                  className={`w-full cursor-pointer rounded-lg border py-2 px-4 focus:outline-none `}
-                >
-                  <div class="flex flex-row justify-center">
-                    <div class="h-5 px-2">
-                      <img src={google} alt="" className="object-fit"></img>
-                    </div>
-                    <div className="self-center text-sm text-subtle">
-                      Continue with Google
-                    </div>
-                  </div>
-                </button>
-              </Link> */}
-            </div>
+            <div className="flex flex-wrap mt-3"></div>
             <div className="text-sm font-medium mt-4">
               Already a member?{" "}
               <Link to="/login" class="text-secondary">
