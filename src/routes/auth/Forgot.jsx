@@ -5,14 +5,6 @@ import logo from "../../assets/fulllogo.png";
 import illustration from "../../assets/forgot.svg";
 
 const Forgot = () => {
-  // const handleFormSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   let email = e.target.elements.email?.value;
-  //   let password = e.target.elements.password?.value;
-
-  //   console.log(email, password);
-  // };
   return (
     <div className="lg:flex">
       <div className="lg:w-1/2 xl:max-w-screen-sm">
@@ -49,12 +41,12 @@ const Forgot = () => {
                   </button>
                 </div>
                 <div className="flex justify-center items-center">
-                <Link to="/login" class="w-full">
-                  <button
-                    className={`py-3 cursor-pointer px-14 text-sm text-primary rounded-lg border focus:outline-none`}
-                  >
-                    Cancel
-                  </button>
+                  <Link to="/login" class="w-full">
+                    <button
+                      className={`py-3 cursor-pointer px-14 text-sm text-primary rounded-lg border focus:outline-none`}
+                    >
+                      Cancel
+                    </button>
                   </Link>
                 </div>
               </div>
