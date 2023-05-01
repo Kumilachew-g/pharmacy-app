@@ -29,7 +29,7 @@ const Forgot = () => {
                   type="email"
                   className={`w-full p-2 text-primary border rounded-lg-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
                   id="email"
-                  placeholder="johndoe@gmail.com"
+                  placeholder="kumie@gmail.com"
                 />
               </div>
               <div class="grid grid-flow-col gap-x-10 auto-cols-max mt-4 justify-between">
