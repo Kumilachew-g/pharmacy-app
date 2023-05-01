@@ -3,12 +3,10 @@ import { Link } from "react-router-dom";
 import "../../index.css";
 import logo from "../../assets/fulllogo.png";
 import illustration from "../../assets/signup.svg";
-import google from "../../assets/google.svg";
 import SignupForm from "../../components/forms/SignupForm";
 const Signup = () => {
   return (
     <div className="lg:flex">
-      {/* {token ? <Redirect to="/dash/" /> : null} */}
       <div className="lg:w-1/2 xl:max-w-screen-sm bg-purple-200 mr-auto">
         <div class="grid grid-rows-2">
           <div class="items-center py-5 px-10">
