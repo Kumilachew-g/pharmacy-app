@@ -171,7 +171,7 @@ class UserInfo extends Component {
             type="businesslocation"
             className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out `}
             id="businesslocation"
-            placeholder="Delhi,NCR"
+            placeholder="Addis Ababa,Bole"
             required
           />
         </div>
