@@ -135,24 +135,20 @@ class EditProductForm extends Component {
                 </div>
                 <div className="">
                   <div className="py-3">
-                    {/* <Link to="/login" class="w-full"> */}
                     <button
                       className={`w-2/3 border bg-primary hover:bg-indigo-700 transition-all text-white py-2 px-8 text-sm  cursor-pointer  rounded-lg`}
                     >
                       Browse Photos
                     </button>
-                    {/* </Link> */}
                   </div>
                 </div>
                 <div className="">
                   <div className="">
-                    {/* <Link to="/login" class="w-full"> */}
                     <button
                       className={`w-2/3 border bg-error text-white py-2 px-8 text-sm  cursor-pointer  rounded-lg`}
                     >
                       Remove Photo
                     </button>
-                    {/* </Link> */}
                   </div>
                 </div>
               </div>
