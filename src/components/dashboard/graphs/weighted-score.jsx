@@ -39,10 +39,7 @@ class WeightedScore extends Component {
             viewBoxSize={[100, 100]}
           />
         </div>
-        <div
-          className="flex lg:space-x-6 items-start justify-start"
-          // style={{ width: 429.25, height: 24 }}
-        >
+        <div className="flex lg:space-x-6 items-start justify-start">
           <div className="w-6 h-4 bg-blue-400 rounded-full" />
           <div className="flex space-x-2 items-center justify-start">
             <p className="font-medium  leading-tight text-gray-900">
