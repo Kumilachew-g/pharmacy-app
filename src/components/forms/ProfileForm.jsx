@@ -5,7 +5,6 @@ import Loader from "../loader";
 import { CheckIcon, LogoutIcon } from "../../icons/index";
 import Popup from "reactjs-popup";
 import "../../index.css";
-// import "reactjs-popup/dist/index.css";
 
 class UserInfo extends Component {
   constructor(props) {
@@ -52,15 +51,12 @@ class UserInfo extends Component {
     this.validationErrorMessage(event);
   };
 
-  // Update profile info
   updateProfile = () => {
     console.log(this.state.name, this.state.location);
-    // dispatch(AuthActions.update());
   };
 
   logout = () => {
     this.props.logout();
-    // dispatch(AuthActions.update());
   };
 
   validationErrorMessage = (event) => {
@@ -91,8 +87,7 @@ class UserInfo extends Component {
       companyName: this.state.companyName
         ? this.state.companyName
         : this.props.user.companyName,
-      maxLimit: this.state.maxLimit
-        ? this.state.maxLimit : 100
+      maxLimit: this.state.maxLimit ? this.state.maxLimit : 100,
     };
     data.token = this.props.token;
     data.id = this.props.user.authId;
@@ -394,7 +389,7 @@ class UserInfo extends Component {
                 </div>
               </form>
             </div>
-            {/* main form */}
+
             <form className="flex-1 min-w-min">
               <div>
                 <label htmlFor="name" className="text-sm font-medium">
@@ -469,7 +464,7 @@ class UserInfo extends Component {
                   placeholder={dmaxLimit ? dmaxLimit : 0}
                 />
               </div>
-              {/* save changes button */}
+
               <button
                 onClick={this.submitForm}
                 type="submit"
@@ -479,7 +474,6 @@ class UserInfo extends Component {
               </button>
             </form>
           </div>
-          {/* logout button */}
 
           <Popup
             trigger={
@@ -520,8 +514,6 @@ class UserInfo extends Component {
               </div>
             )}
           </Popup>
-          {/* <Link to="/">
-          </Link> */}
         </div>
       </div>
     );
