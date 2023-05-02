@@ -1,14 +1,7 @@
 import React from "react";
 import "../../index.css";
-import { ProductActions } from "../../redux/actions";
-import { store } from "../../redux";
-import { connect } from "react-redux";
 
 class Invoice extends React.Component {
-  // componentDidMount() {
-  //   this.props.loadData();
-  //   this.addDataToState();
-  // }
   constructor(props) {
     super(props);
     this.state = {
@@ -18,25 +11,7 @@ class Invoice extends React.Component {
     };
   }
 
-  // addDataToState() {
-  //   let finalProductList = [];
-  //   const productList = this.state.productList;
-  //   const productIdsList = this.state.productIdsList;
-  //   //
-  //   finalProductList = productList.filter(function (el) {
-  //     for (let i = 0; i < productIdsList.length; i++) {
-  //       if (el.productsId === productIdsList[i]) return true;
-  //       else return false;
-  //     }
-  //   });
-
-  //   // this.setState({ billProductList: finalProductList });
-  //   return finalProductList;
-  // }
-
   render() {
-    // let invoiceProducts = this.addDataToState();
-    // console.log(invoiceProducts);
     let total_items = 0;
     for (let i = 0; i < this.state.productList.length; i++) {
       total_items += this.state.productList[i].quantity;
@@ -44,7 +19,6 @@ class Invoice extends React.Component {
     return (
       <div>
         <div className="container bg-white border rounded-lg border-subtle lg:p-6 p-2">
-          {/* total amount date showcase */}
           <div className="flex flex-row justify-between">
             <div className="w-full flex flex-col">
               <div>
@@ -77,19 +51,12 @@ class Invoice extends React.Component {
             <div className="text-lg font-medium">Customer Name</div>
             <div className="text-md font-bold">{this.props.name}</div>
           </div>
-          {/* description */}
-          {/* <div className="mt-4 flex justify-between">
-            <div className="text-lg font-medium">Invoice ID</div>
-            <div className="text-md font-bold">abcdefg</div>
-          </div> */}
-          {/* total number of items */}
           <div className="mt-4 flex justify-between">
             <div className="text-lg font-medium">Total number of items</div>
             <div className="text-md font-bold">
               {total_items ? total_items : 0}
             </div>
           </div>
-          {/* total amount */}
           <div className="mt-4 flex justify-between">
             <div className="text-lg font-medium">Total amount</div>
             <div className="text-md font-bold">₹ {this.props.totalAmount}</div>
@@ -100,7 +67,6 @@ class Invoice extends React.Component {
               Products
             </h1>
           </div>
-          {/* add multiple products */}
           <ul>
             <li className="flex flex-row justify-between items-center">
               <div className="flex items-center justify-start w-48">
@@ -141,26 +107,9 @@ class Invoice extends React.Component {
               );
             })}
           </ul>
-          {/* </Link> */}
         </div>
       </div>
     );
   }
 }
-// const mapStateToProps = (state) => {
-//   return {
-//     token: state.auth.user.token,
-//     products: state.product.product.products,
-//     isLoading: state.product.isLoading,
-//     isError: state.product.isError,
-//   };
-// };
-
-// const mapDispatchToProps = (dispatch) => {
-//   const state = store.getState();
-//   return {
-//     loadData: () => dispatch(ProductActions.readProduct(state.auth.user.token)),
-//   };
-// };
-
 export default Invoice;
