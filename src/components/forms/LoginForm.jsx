@@ -53,7 +53,7 @@ class UserInfo extends Component {
   submitForm = async (event) => {
     event.preventDefault();
     console.log(this.state.email, this.state.password);
-    // this.props.dispatch(AuthTypes.TOGGLE_LOADING);
+
     this.props.dispatch(
       AuthActions.login({
         email: this.state.email,
