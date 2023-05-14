@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**Pharmacy App** is a platform that empowers pharmacists with new-age technology.
+**Pharmacy App** is a platform that empowers pharmacists with new-age technology. And used to register drugs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
